@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <title>Gladson Regan Dsouza</title>
+  </head>
+
+  <body>
+    <!----------------- Nav -------------------->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav_logo">Gladson</a>
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list grid">
+            <li class="nav_item">
+              <a href="#home" class="nav_link">
+                <i class="uil uil-estate nav_icon"></i> Home
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="#about" class="nav_link">
+                <i class="uil uil-user nav_icon"></i> About
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="#skills" class="nav_link">
+                <i class="uil uil-user nav_icon"></i> Skills
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="#projects" class="nav_link">
+                <i class="uil uil-user nav_icon"></i> Projects
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="#contact" class="nav_link">
+                <i class="uil uil-user nav_icon"></i> Contact Me
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav_close" id="nav-close"></i>
+        </div>
+        <div class="nav_btns">
+          <i class="uil uil-moon change_theme" id="dark-btn"></i>
+          <i class="uil uil-sun change_theme hidden" id="light-btn"></i>
+          <div class="nav_toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!----------------------HOME ------------------------->
+      <section class="home section" id="home">
+        <div class="home_container container grid">
+          <div class="home_content grid">
+            <div class="home_img">
+              <img src="./img/Work.svg" alt="" />
+            </div>
+            <div class="home_data">
+              <h1 class="home_title">Hi, I'am Gladson</h1>
+              <h3 class="home_subtitle">
+                Web Developer | JavaScript | ReactJs
+              </h3>
+              <a href="#contact" class="button button_flex"
+                >Contact Me <i class="uil uil-arrow-right button_icon"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!----------------------- ABOUT -------------------------->
+      <section class="about section" id="about">
+        <h2 class="section_title">About Me</h2>
+        <div class="about_container container">
+          <div class="about_data">
+            <p class="about_description">
+              I'm Gladson Regan Dsouza, I like to build stuff for web and I'm
+              enthusiastic to learn new technologies. Currently in the roadmap
+              of becoming a full stack web developer. During my free time I like
+              to play games and watch anime.
+            </p>
+            <a target="_blank" href="./pdf/" class="button button_flex"
+              >Resume <i class="uil uil-file-download button_icon"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+
+      <!------------------------SKILLS ---------------------------->
+      <section class="skills section" id="skills">
+        <h2 class="section_title">Skills</h2>
+        <div class="skills_container container grid">
+          <div class="skill">
+            <img src="./img/html5.svg" id="html" alt="HTML" />
+            <h3 class="skill_name">HTML</h3>
+          </div>
+          <div class="skill">
+            <img src="./img/css3.svg" alt="CSS" />
+            <h3 class="skill_name">CSS</h3>
+          </div>
+          <div class="skill">
+            <img src="./img/javascript-alt.svg" alt="JavaScript" />
+            <h3 class="skill_name">JavaScript</h3>
+          </div>
+          <div class="skill">
+            <img src="./img/reactjs.svg" alt="React" />
+            <h3 class="skill_name">React</h3>
+          </div>
+          <div class="skill">
+            <img src="./img/nodejs.svg" alt="NodeJs" />
+            <h3 class="skill_name">NodeJs</h3>
+          </div>
+          <div class="skill">
+            <img src="./img/mongodb.svg" alt="mongodb" />
+            <h3 class="skill_name">MongoDB</h3>
+          </div>
+
+          <div class="skill">
+            <img src="./img/git.svg" alt="Git" />
+            <h3 class="skill_name">Git</h3>
+          </div>
+          <div class="skill">
+            <img src="./img/bootstrap.svg" alt="Bootstrap" />
+            <h3 class="skill_name">Bootstrap</h3>
+          </div>
+          <div class="skill">
+            <img src="./img/sass.svg" alt="Sass" />
+            <h3 class="skill_name">Sass</h3>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== PROJECTS ====================-->
+      <section class="projects section" id="projects">
+        <h1 class="section_title">Projects</h1>
+        <div class="projects_container grid">
+          <div class="project">
+            <div class="image_container">
+              <img src="./img/beat_maker.png" alt="Waves Music Player" />
+            </div>
+            <div class="project_description">
+              <h3 class="project_title">Beat Maker</h3>
+              <p class="description">
+                Beat Maker is a clone of the beat maker by splice sounds, build
+                using HTML,CSS and JavaScript.
+              </p>
+            </div>
+            <div class="project_links">
+              <a
+                target="_blank"
+                href="https://gladson9.github.io/Beat-Maker/"
+                class="button"
+                >View Demo</a
+              >
+              <a
+                target="_blank"
+                href="https://github.com/Gladson9/Beat-Maker"
+                class="button"
+                >View Code</a
+              >
+            </div>
+          </div>
+          <div class="project">
+            <div class="image_container">
+              <img src="./img/waves.png" alt="Waves Music Player" />
+            </div>
+            <div class="project_description">
+              <h3 class="project_title">Waves | Music Player</h3>
+              <p class="description">
+                Waves is a lofi music player build using React which has a basic
+                controls of a music player and a library to select other music.
+              </p>
+            </div>
+            <div class="project_links">
+              <a
+                target="_blank"
+                href="https://waves-react-music-player.vercel.app/"
+                class="button"
+                >View Demo</a
+              >
+              <a
+                target="_blank"
+                href="https://github.com/Gladson9/react-music-player"
+                class="button"
+                >View Code</a
+              >
+            </div>
+          </div>
+          <div class="project">
+            <div class="image_container">
+              <img src="./img/ecommerce_site.png" alt="Waves Music Player" />
+            </div>
+            <div class="project_description">
+              <h3 class="project_title">MERN Ecommerce Site</h3>
+              <p class="description">
+                Ecommerce Site build using MERN Stack also includes payment
+                integration using Stripe and Braintree.
+              </p>
+            </div>
+            <div class="project_links">
+              <a
+                target="_blank"
+                href="https://book-basket-mern.herokuapp.com/"
+                class="button"
+                >View Demo</a
+              >
+              <a
+                target="_blank"
+                href="https://github.com/Gladson9/MERN-Ecommerce-Site"
+                class="button"
+                >View Code</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== CONTACT ME ====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section_title">Contact Me</h2>
+        <span class="section_subtitle">Get in touch</span>
+        <div class="contact_container container grid">
+          <div>
+            <div class="contact_info">
+              <i class="uil uil-envelope contact_icon"></i>
+              <div>
+                <h3 class="contact_title">Email</h3>
+                <span class="contact_subtitle">
+                  gladsondsouza77@gmail.com
+                </span>
+              </div>
+            </div>
+            <div class="contact_info">
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/gladson-regan-dsouza"
+              >
+                <i class="uil uil-linkedin contact_icon"></i
+              ></a>
+              <div>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/gladson-regan-dsouza"
+                >
+                  <h3 class="contact_title">LinkedIn</h3>
+                  <span class="contact_subtitle"> Gladson Regan Dsouza </span>
+                </a>
+              </div>
+            </div>
+            <div class="contact_info">
+              <a target="_blank" href="https://github.com/Gladson9">
+                <i class="uil uil-github contact_icon"></i>
+              </a>
+              <div>
+                <a target="_blank" href="https://github.com/Gladson9">
+                  <h3 class="contact_title">Github</h3>
+                  <span class="contact_subtitle"> Gladson9 </span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <form
+            action="https://formspree.io/f/myylllkg"
+            method="POST"
+            class="contact_form grid"
+          >
+            <div class="contact_inputs grid">
+              <div class="contact_content">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  class="contact_input"
+                  required
+                />
+              </div>
+              <div class="contact_content">
+                <label for="email">Email</label>
+                <input
+                  type="text"
+                  name="email"
+                  id="email"
+                  class="contact_input"
+                  required
+                />
+              </div>
+              <div class="contact_content">
+                <label for="message">Message</label>
+                <textarea
+                  name="message"
+                  id="message"
+                  cols="0"
+                  rows="7"
+                  class="contact_input"
+                  required
+                ></textarea>
+              </div>
+              <div>
+                <button type="submit" class="submit_btn">
+                  Send Message <i class="uil uil-message button_icon"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
