@@ -43,9 +43,7 @@ lightBtn.onclick = () => {
 };
 
 const theme = localStorage.getItem("theme");
-console.log(theme);
 if (theme) {
-  console.log("Working");
   document.body.classList.add(theme);
   if (theme === "dark_theme") {
     darkBtn.classList.add("hidden");
